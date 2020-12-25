@@ -1,0 +1,449 @@
+body {
+    background: #e1e1ebde;
+    font-family: poppins;
+}
+
+main {
+    padding: 10px;
+}
+
+aside {
+    width: 0px
+}
+
+.nav {
+    background: white;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    height: 1.8em;
+    border: 2px solid #e4e4ed;
+    border-radius: 50%;
+}
+
+.nav i:not(.fa-caret-down) {
+    font-size: 0.8em;
+}
+
+.pic-link {
+    box-sizing: content-box;
+}
+
+.logo-frame {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background: #172c47;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo-frame img {
+    height: 40%;
+}
+
+.form-control {
+    background: #dbdde9;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 10px;
+}
+
+aside {
+    display: none;
+}
+
+.boxes-1-4 {
+    width: 100%;
+
+}
+
+.box3, .boxes-1-4, .boxes-1-2, .boxes-3-4 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    background: white;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+.purple {
+    background: rgb(203, 212, 250);
+    position: relative;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 80px;
+    color: rgb(100, 126, 240);
+    width: 100%;
+}
+
+.purple img {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    right: 0px
+}
+
+.purple>h1 {
+    font-size: 12px;
+    padding: 10px 0 0 10px;
+    font-weight: 500;
+}
+
+.purple>h2 {
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.headline span:first-child {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(70, 66, 66)
+}
+
+.projects-revenue {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-name-pic {
+    position: relative;
+    top: -40px;
+    left: -5px;
+}
+
+.profile-name-pic>img {
+    margin-bottom: 20px;
+    width: 55px;
+    border-radius: 50%;
+    border: 4px solid #e4e4ed;
+}
+
+.btn {
+    font-size: 10px;
+    background: rgb(87, 69, 255);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    width: 95px;
+    border: 0px
+}
+
+.title {
+    width: 140px;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.box1>.white {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%
+}
+
+.value {
+    font-size: 13px;
+    color: gray;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.box2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.box2 div:not(.button) {
+    margin-bottom: 10px
+}
+
+.button+.value {
+    margin-top: 100px
+}
+
+.second-btn {
+    margin-top: 0;
+}
+
+.box2 .month-revenu {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title2, .title2>i {
+    color: rgb(100, 255, 100);
+    margin-right: 10px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.third-block-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+}
+
+.third-block-box .box {
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(78, 60, 243);
+    margin: 20px;
+}
+
+.bx {
+    font-size: 20px;
+}
+
+.box4 {
+    background: white;
+    height: 361px;
+    border-radius: 8px;
+}
+
+.nav-pills .nav-link.active {
+    background: #5046f3;
+    font-size: 13px;
+}
+
+.nav-item>a {
+    color: #000000;
+    font-size: 13px;
+}
+
+.box-5 {
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.table {
+    background: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    padding: .53rem;
+    text-align: left;
+    font-size: 10px;
+}
+
+td>.btn-primary {
+    border-radius: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .nav i:not(.fa-caret-down) {
+        font-size: 1.5em;
+    }
+    .box3 {
+        flex-direction: row;
+    }
+    .purple {
+        height: 200px;
+    }
+    .box1>.white {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .btn {
+        width: 100px;
+    }
+    .third-block-box {
+        width: 32%;
+    }
+    .projects-revenue {
+        width: 100%;
+        justify-content: space-evenly;
+        margin-left: 50px;
+    }
+    .button+.value {
+        margin-top: 10px;
+    }
+    .nav-pills {
+        margin-left: auto;
+    }
+    .badge-success {
+        background: rgb(196, 250, 196);
+        color: rgb(70, 187, 70);
+        font-weight: 400;
+    }
+    .badge-danger {
+        background: rgb(255, 199, 199);
+        color: red;
+        font-weight: 400;
+    }
+    .badge-warning {
+        background: rgb(255, 255, 160);
+        color: rgb(231, 182, 107);
+        font-weight: 400;
+    }
+    .list-unstyled li div {
+        font-size: 15px;
+        padding: 20px;
+        color: rgb(168, 167, 167);
+    }
+    .list-unstyled li div:hover {
+        color: white;
+    }
+}
+
+@media (min-width:992px) {
+    .nav {
+        height: 80px;
+    }
+    .logo-frame {
+        height: 80px;
+        width: 16.5%;
+        margin-right: 0;
+    }
+    #name {
+        font-size: 20px;
+    }
+    .boxes-1-4 {
+        flex-direction: row;
+    }
+    .boxes-1-2{
+        flex:1;
+        justify-content: stretch;
+    }
+    .boxes-3-4{
+        flex:3;
+    }
+    .purple>img {
+        height: 80px;
+    }
+    .purple {
+        padding: 0px;
+        width: 300px;
+        height: 80px;
+    }
+    .purple>h1 {
+        font-size: 15px;
+    }
+    .purple>h2 {
+        font-size: 12px;
+    }
+    .white {
+        flex-direction: row;
+        padding: 10px;
+    }
+    .box1, .purple {
+        width: 400px;
+    }
+    .profile-name-pic>img {
+        width: 70px;
+        top: -35px;
+        left: 5px;
+    }
+    .profile-name-pic {
+        width: 180px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .title+span {
+        width: 100%;
+        font-size: 15px;
+    }
+    .projects-revenue {
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+    .white-box3 {
+        width: 60px;
+    }
+    .btn {
+        font-size: 14px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        width: 130px;
+    }
+    .box2 {
+        width: 400px;
+    }
+    .box3 {
+      
+        margin-top: 0px;
+    }
+
+  
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+    }
+    .boxes-3-4 {
+        margin: 0 10px 0 10px;
+    }
+    aside {
+        flex: 3;
+        width: 266px;
+      
+        color: rgb(8, 8, 56)
+    }
+    aside {
+        display: block;
+   
+        width: 300px;
+        background: #172c47;
+    }
+    main {
+        flex: 4;
+        padding-left: 20px;
+    }
+    .box4 {
+        height: 450px
+    }
+    .table td, .table th {
+        font-size: 15px;
+    }
+}
